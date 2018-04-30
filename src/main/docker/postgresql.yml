@@ -1,0 +1,11 @@
+version: '2'
+services:
+    arrromania-postgresql:
+        image: postgres:9.6.5
+        # volumes:
+        #     - ~/volumes/jhipster/arrromania/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=arrromania
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitHubOrganization": "sorinslavic",
+    "baseName": "arrromania",
+    "packageName": "com.arrromania",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "session",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": true,
+    "useSass": false,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "ro",
+    "languages": [
+      "en",
+      "ro"
+    ],
+    "clientFramework": "angular1",
+    "jhipsterVersion": "4.14.3",
+    "packageFolder": "com/arrromania",
+    "rememberMeKey": "26f6736fd99f4bdf4b3b3d470e0ad46a671708b3",
+    "jhiPrefix": "jhi"
+  }
+}
